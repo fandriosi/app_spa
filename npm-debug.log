@@ -1,0 +1,139 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '@vaadin/iron-icon',
+1 verbose cli   'cd..' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData @vaadin/iron-icon
+8 silly fetchPackageMetaData cd..
+9 silly fetchNamedPackageData @vaadin/iron-icon
+10 silly mapToRegistry name @vaadin/iron-icon
+11 silly mapToRegistry scope (from package name) @vaadin
+12 verbose mapToRegistry no registry URL found in name for scope @vaadin
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry https://registry.npmjs.org/
+15 silly mapToRegistry uri https://registry.npmjs.org/@vaadin%2firon-icon
+16 silly fetchNamedPackageData cd..
+17 silly mapToRegistry name cd..
+18 silly mapToRegistry using default registry
+19 silly mapToRegistry registry https://registry.npmjs.org/
+20 silly mapToRegistry uri https://registry.npmjs.org/cd..
+21 verbose request uri https://registry.npmjs.org/@vaadin%2firon-icon
+22 verbose request no auth needed
+23 info attempt registry request try #1 at 10:53:32 AM
+24 verbose request id 635f7b7bf6fe8e65
+25 http request GET https://registry.npmjs.org/@vaadin%2firon-icon
+26 verbose request uri https://registry.npmjs.org/cd..
+27 verbose request no auth needed
+28 info attempt registry request try #1 at 10:53:32 AM
+29 verbose etag W/"3a3a8e038cfab4df7de2177d91b5f5d3"
+30 verbose lastModified Sat, 26 May 2018 19:33:37 GMT
+31 http request GET https://registry.npmjs.org/cd..
+32 http 304 https://registry.npmjs.org/cd..
+33 verbose headers { date: 'Wed, 31 Jul 2019 13:53:33 GMT',
+33 verbose headers   connection: 'keep-alive',
+33 verbose headers   'set-cookie':
+33 verbose headers    [ '__cfduid=d1629e5a5684094cd786fa2538fd595361564581212; expires=Thu, 30-Jul-20 13:53:32 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+33 verbose headers   'cf-cache-status': 'MISS',
+33 verbose headers   'cache-control': 'max-age=300',
+33 verbose headers   'cf-ray': '4ff00f235bd74bbb-GRU',
+33 verbose headers   etag: '"3a3a8e038cfab4df7de2177d91b5f5d3"',
+33 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+33 verbose headers   'last-modified': 'Sat, 26 May 2018 19:33:37 GMT',
+33 verbose headers   vary: 'accept-encoding, accept',
+33 verbose headers   server: 'cloudflare' }
+34 silly get cb [ 304,
+34 silly get   { date: 'Wed, 31 Jul 2019 13:53:33 GMT',
+34 silly get     connection: 'keep-alive',
+34 silly get     'set-cookie':
+34 silly get      [ '__cfduid=d1629e5a5684094cd786fa2538fd595361564581212; expires=Thu, 30-Jul-20 13:53:32 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+34 silly get     'cf-cache-status': 'MISS',
+34 silly get     'cache-control': 'max-age=300',
+34 silly get     'cf-ray': '4ff00f235bd74bbb-GRU',
+34 silly get     etag: '"3a3a8e038cfab4df7de2177d91b5f5d3"',
+34 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+34 silly get     'last-modified': 'Sat, 26 May 2018 19:33:37 GMT',
+34 silly get     vary: 'accept-encoding, accept',
+34 silly get     server: 'cloudflare' } ]
+35 verbose etag https://registry.npmjs.org/cd.. from cache
+36 verbose get saving cd.. to /home/fabio/.npm/registry.npmjs.org/cd../.cache.json
+37 http 404 https://registry.npmjs.org/@vaadin%2firon-icon
+38 verbose headers { date: 'Wed, 31 Jul 2019 13:53:33 GMT',
+38 verbose headers   'content-type': 'application/json',
+38 verbose headers   'content-length': '21',
+38 verbose headers   connection: 'keep-alive',
+38 verbose headers   'set-cookie':
+38 verbose headers    [ '__cfduid=d6d42ded4f79f9db2eea228e12949539a1564581212; expires=Thu, 30-Jul-20 13:53:32 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+38 verbose headers   'cf-ray': '4ff00f2358a0d028-GRU',
+38 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+38 verbose headers   vary: 'Accept-Encoding',
+38 verbose headers   server: 'cloudflare' }
+39 silly get cb [ 404,
+39 silly get   { date: 'Wed, 31 Jul 2019 13:53:33 GMT',
+39 silly get     'content-type': 'application/json',
+39 silly get     'content-length': '21',
+39 silly get     connection: 'keep-alive',
+39 silly get     'set-cookie':
+39 silly get      [ '__cfduid=d6d42ded4f79f9db2eea228e12949539a1564581212; expires=Thu, 30-Jul-20 13:53:32 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+39 silly get     'cf-ray': '4ff00f2358a0d028-GRU',
+39 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+39 silly get     vary: 'Accept-Encoding',
+39 silly get     server: 'cloudflare' } ]
+40 silly fetchPackageMetaData Error: Not found : @vaadin/iron-icon
+40 silly fetchPackageMetaData     at makeError (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+40 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:252:14)
+40 silly fetchPackageMetaData     at Request._callback (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+40 silly fetchPackageMetaData     at Request.self.callback (/usr/share/npm/node_modules/request/request.js:198:22)
+40 silly fetchPackageMetaData     at emitTwo (events.js:126:13)
+40 silly fetchPackageMetaData     at Request.emit (events.js:214:7)
+40 silly fetchPackageMetaData     at Request.<anonymous> (/usr/share/npm/node_modules/request/request.js:1082:10)
+40 silly fetchPackageMetaData     at emitOne (events.js:121:20)
+40 silly fetchPackageMetaData     at Request.emit (events.js:211:7)
+40 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/usr/share/npm/node_modules/request/request.js:1009:12)
+40 silly fetchPackageMetaData  error for @vaadin/iron-icon { Error: Not found : @vaadin/iron-icon
+40 silly fetchPackageMetaData     at makeError (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+40 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:252:14)
+40 silly fetchPackageMetaData     at Request._callback (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+40 silly fetchPackageMetaData     at Request.self.callback (/usr/share/npm/node_modules/request/request.js:198:22)
+40 silly fetchPackageMetaData     at emitTwo (events.js:126:13)
+40 silly fetchPackageMetaData     at Request.emit (events.js:214:7)
+40 silly fetchPackageMetaData     at Request.<anonymous> (/usr/share/npm/node_modules/request/request.js:1082:10)
+40 silly fetchPackageMetaData     at emitOne (events.js:121:20)
+40 silly fetchPackageMetaData     at Request.emit (events.js:211:7)
+40 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/usr/share/npm/node_modules/request/request.js:1009:12) pkgid: '@vaadin/iron-icon', statusCode: 404, code: 'E404' }
+41 silly rollbackFailedOptional Starting
+42 silly rollbackFailedOptional Finishing
+43 silly runTopLevelLifecycles Starting
+44 silly runTopLevelLifecycles Finishing
+45 silly install printInstalled
+46 verbose stack Error: Not found : @vaadin/iron-icon
+46 verbose stack     at makeError (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+46 verbose stack     at CachingRegistryClient.<anonymous> (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:252:14)
+46 verbose stack     at Request._callback (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+46 verbose stack     at Request.self.callback (/usr/share/npm/node_modules/request/request.js:198:22)
+46 verbose stack     at emitTwo (events.js:126:13)
+46 verbose stack     at Request.emit (events.js:214:7)
+46 verbose stack     at Request.<anonymous> (/usr/share/npm/node_modules/request/request.js:1082:10)
+46 verbose stack     at emitOne (events.js:121:20)
+46 verbose stack     at Request.emit (events.js:211:7)
+46 verbose stack     at IncomingMessage.<anonymous> (/usr/share/npm/node_modules/request/request.js:1009:12)
+47 verbose statusCode 404
+48 verbose pkgid @vaadin/iron-icon
+49 verbose cwd /home/fabio/web_Components/app_spa
+50 error Linux 4.15.0-55-generic
+51 error argv "/usr/bin/node" "/usr/bin/npm" "install" "@vaadin/iron-icon" "cd.."
+52 error node v8.10.0
+53 error npm  v3.5.2
+54 error code E404
+55 error 404 Not found : @vaadin/iron-icon
+56 error 404
+57 error 404 '@vaadin/iron-icon' is not in the npm registry.
+58 error 404 You should bug the author to publish it (or use the name yourself!)
+59 error 404 Note that you can also install from a
+60 error 404 tarball, folder, http url, or git url.
+61 verbose exit [ 1, true ]
